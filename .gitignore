@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.coverage
+htmlcov/
+build/
+dist/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+
+# Generated reports and local configuration
+results/
+reports/
+.env
+*.log
+
+# Editors and operating systems
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Legacy JavaScript tooling is not part of this project
+node_modules/
