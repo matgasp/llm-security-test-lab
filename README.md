@@ -1,5 +1,11 @@
 # OWASP GenAI LLM Top 10 Security Lab
 
+[![CI](https://github.com/matgasp/llm-security-test-lab/actions/workflows/ci.yml/badge.svg)](https://github.com/matgasp/llm-security-test-lab/actions/workflows/ci.yml)
+[![CodeQL SAST](https://github.com/matgasp/llm-security-test-lab/actions/workflows/codeql.yml/badge.svg)](https://github.com/matgasp/llm-security-test-lab/actions/workflows/codeql.yml)
+[![Dependency Review](https://github.com/matgasp/llm-security-test-lab/actions/workflows/dependency-review.yml/badge.svg)](https://github.com/matgasp/llm-security-test-lab/actions/workflows/dependency-review.yml)
+![Python 3.14](https://img.shields.io/badge/Python-3.14-3776AB?logo=python&logoColor=white)
+![OWASP GenAI LLM Top 10](https://img.shields.io/badge/OWASP_GenAI_LLM_Top_10-2026-000000?logo=owasp&logoColor=white)
+
 A reproducible laboratory that demonstrates the same LLM application **before and after** deterministic security controls. The baseline is intentionally vulnerable. The protected path assumes the model can be compromised and prevents adversarial output from becoming disclosure, misinformation, resource abuse, unsafe downstream content, or privileged action.
 
 The versioned corpus covers every category in the **OWASP GenAI LLM Top 10 2026**. The current deterministic result is:
